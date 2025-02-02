@@ -23,11 +23,11 @@
 
     --small-horizontal-margin: 6%;
     --medium-horizontal-margin: 12%;
-    --large-horizontal-margin: 24%;
+    --large-horizontal-margin: 22%;
 
     --text-size: 18px;
     --button-text-size: 20px;
-    --line-height: 1.2rem;
+    --line-height: 1.3rem;
 }
 
 
@@ -44,9 +44,9 @@
         --small-horizontal-margin: 3%;
         --medium-horizontal-margin: 6%;
         --large-horizontal-margin: 12%;
-        --text-size: 14px;
-        --button-text-size: 18px;
-        --line-height: 1.0rem;
+        --text-size: 16px;
+        --button-text-size: 16px;
+        --line-height: 1.1rem;
     }
 }
 
@@ -55,7 +55,7 @@
         --small-horizontal-margin: 1%;
         --medium-horizontal-margin: 2%;
         --large-horizontal-margin: 3%;
-        --text-size: 10px;
+        --text-size: 12px;
         --button-text-size: 12px;
         --line-height: 1.0rem;
     }
@@ -118,7 +118,13 @@
     justify-content: space-between;
 }
 
-.Header>button {
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.Header>button,
+.Header>a>button {
     font-family: "Open Sans", sans-serif;
     letter-spacing: 2px;
     text-decoration: none;
@@ -176,6 +182,13 @@ pre {
     overflow: auto;
     border: 2px solid #ccc;
 }
+
+/**
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+**/
 
 code {
     background: var(--color-alternate-background);
