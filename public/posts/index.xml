@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Kaeru</title>
-    <link>https://kaeru.no/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Kaeru</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://kaeru.no/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Oct 2025 14:14:52 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First post</title>
+      <link>http://localhost:1313/posts/first_post/</link>
+      <pubDate>Sun, 12 Oct 2025 14:14:52 +0200</pubDate>
+      <guid>http://localhost:1313/posts/first_post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;You should be at &lt;a href=&#34;https://kaeru.no&#34;&gt;Kaeru&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
