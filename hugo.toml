@@ -1,0 +1,4 @@
+baseURL = 'https://kaeru.no'
+languageCode = 'en-us'
+title = 'Kaeru'
+theme = 'rusty-typewriter'
