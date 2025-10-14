@@ -1,0 +1,16 @@
+home:
+  image: 'frog_rect_super_small.png'
+  greetings: 'Kaeru'
+  text: ''
+side:
+  home:
+  - content: 'Github'
+    imagePath: 'Github_Invertocat_Light.png'
+    imageHref: 'https://github.com/nunokaeru'
+  - content: 'LinkedIn'
+    imagePath: 'linkedin.png'
+    imageHref: 'https://www.linkedin.com/in/nunormendes/'
+  - content: 'Rusty Typewriter Theme'
+    imagePath: 'rt_logo.jpg'
+    imageHref: 'https://github.com/math-queiroz/rusty-typewriter'
+
