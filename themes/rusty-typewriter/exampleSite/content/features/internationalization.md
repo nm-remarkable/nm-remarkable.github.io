@@ -18,10 +18,6 @@ footer: Made with ❤️ and powered by {{ .ThemeAnchor }} theme for {{ .HugoAnc
 featured_posts: Featured Posts
 recent_posts: Recent Posts
 
-# SidePane for home
-search: Search...
-see_all: See all...
-
 # Page
 breadcrumb_home: Home
 

@@ -7,7 +7,7 @@ enableRobotsTXT = true
 
 # rtwt = Rusty Typewriter Theme
 [params.rtwt.side.home]
-taxonomies = ['tags','series']
+taxonomies = ['tags', 'series']
 countTaxonomy = 3
 
 [taxonomies]
@@ -32,19 +32,3 @@ weight = 2
 name = 'About'
 pageRef = '/about.md'
 weight = 3
-
-# build search index ================
-[outputFormats]
- [outputFormats.SearchIndex]
-  mediaType = "application/json"
-  baseName = "searchindex"
-  isPlainText = true
-  notAlternative = true
-
-[mediaTypes]
- [mediaTypes."application/json"]
-  suffixes = ["json"]
-
-[outputs]
- home = ["HTML","RSS", "SearchIndex"]
-# ===================================

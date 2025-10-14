@@ -7,8 +7,8 @@ homepage = 'https://github.com/math-queiroz/rusty-typewriter'
 demosite = 'https://rusty-typewriter.netlify.app/demo'
 
 tags = ["responsive", "minimal", "blog"]
-features = ["blog", "themes", "search"]
+features = ["blog", "themes"]
 
 [author]
-  name = 'Matheus Queiroz'
-  homepage = 'https://github.com/math-queiroz'
+name = 'Matheus Queiroz'
+homepage = 'https://github.com/math-queiroz'

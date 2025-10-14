@@ -127,26 +127,6 @@
   margin: .5rem 0 0;
 }
 
-.search-bar {
-  display: flex;
-  background-color: var(--dim-color);
-  border-radius: .4rem;
-  padding: .6rem;
-  margin: .6rem 0 0 0;
-}
-
-.search-bar>input {
-  flex-grow: 1;
-  margin: 0 .5rem;
-  color: var(--body-text-color);
-  border: none;
-  background-color: transparent;
-}
-
-.search-bar>input:focus {
-  outline: none;
-}
-
 .side-content {
   display: flex;
   align-items: center;
@@ -216,10 +196,6 @@
   padding: 0 .6rem;
   border: 1px var(--dim-color) solid;
   border-radius: 15px;
-}
-
-.search-result {
-  border-top: 1px var(--dim-color) solid;
 }
 /* main and native elements rules */
 

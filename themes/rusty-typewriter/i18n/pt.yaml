@@ -15,11 +15,6 @@ footer: Feito com ❤️ usando o tema {{ .ThemeAnchor }} para {{ .HugoAnchor }}
 featured_posts: Em Destaque
 recent_posts: Recentes
 
-# Search
-js_required: É necessário ativar o Javascript
-search_loading: Carregando...
-search_placeholder: Pesquisar...
-
 # SidePane for home
 see_all: Ver tudo...
 
