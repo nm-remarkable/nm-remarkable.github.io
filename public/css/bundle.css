@@ -1,26 +1,12 @@
 /* commonly reused rules */
 
-.notransition {
-  transition: none !important
-}
+.notransition { transition: none !important }
+.hidden { display: none }
 
-.hidden {
-  display: none
-}
+@media (max-width: 1128px) { .show-md{ display: block !important; } }
 
-@media (max-width: 1128px) {
-  .show-md {
-    display: block !important;
-  }
-}
-
-.flex {
-  display: flex
-}
-
-.grow {
-  flex-grow: 1
-}
+.flex { display: flex }
+.grow { flex-grow: 1 }
 
 .centered-container {
   text-align: center;
@@ -28,14 +14,8 @@
   width: fit-content;
 }
 
-.dim {
-  opacity: var(--dim-opacity);
-}
-
-.margin-sm {
-  margin: .1rem;
-}
-
+.dim { opacity: var(--dim-opacity); }
+.margin-sm { margin: .1rem; }
 .text-sm {
   font-size: 0.8rem;
   font-weight: 600;
@@ -170,25 +150,25 @@
 .side-content {
   display: flex;
   align-items: center;
-  border-bottom: 1px var(--dim-color) solid;
+  gap: 0.1rem;
+  border-bottom: 2px var(--dim-color) solid;
   font-size: .8rem;
 }
 
 .side-content>a {
-  flex: 2;
-  margin: 0;
+  flex: 1;
 }
 
 .side-content>p {
-  flex: 5;
-  margin: 0;
+  flex: 3;
   font-family: var(--font-family-content);
   font-weight: var(--font-weight-content);
 }
 
 .side-content-image {
-  width: 100%;
+  max-width: 100%;
   height: auto;
+  margin: 8px;
 }
 
 .side-details {
@@ -241,21 +221,18 @@
 .search-result {
   border-top: 1px var(--dim-color) solid;
 }
-
 /* main and native elements rules */
 
 html[color-scheme^='dark'] .dark-icon,
-html[color-scheme^='light'] .light-icon {
-  display: none;
+html[color-scheme^='light'] .light-icon { 
+  display: none; 
 }
 
 html {
   --bgc-transition: background-color 100ms ease-in;
 
   scroll-behavior: smooth;
-
-  ::-moz-selection,
-  ::selection {
+  ::-moz-selection, ::selection {
     background: var(--selection-color);
   }
 }
@@ -390,7 +367,7 @@ a:hover {
   color: color-mix(in lab, var(--primary-color) 60%, #fff 40%);
 }
 
-a>svg {
+a > svg {
   color: var(--body-text-color);
   height: 22px;
   width: 22px;
@@ -398,23 +375,22 @@ a>svg {
 }
 
 blockquote {
-  padding-left: 25px;
+  padding-left: 25px; 
   margin: auto 5px;
-  border-left: 6px var(--dim-color) solid;
+  border-left: 6px var(--dim-color) solid; 
 }
 
-blockquote>p {
+blockquote > p {
   color: var(--quote-text-color);
 }
 
 table {
-  border: 1px var(--dim-color) solid;
+  border: 1px var(--dim-color) solid; 
   border-collapse: collapse;
 }
 
-th,
-td {
-  border: 1px var(--dim-color) solid;
+th, td {
+  border: 1px var(--dim-color) solid; 
   padding: .2rem .5rem;
 }
 
@@ -427,33 +403,22 @@ pre:has(code) {
   background-color: var(--code-background-color) !important;
 }
 
-:not(pre)>code {
+:not(pre) > code {
   padding: .3rem .3rem 0;
   border-radius: .3rem;
   color: var(--code-text-color);
   background-color: var(--code-background-color) !important;
 }
-
 /* sanity rules */
 
 html {
   min-width: 320px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-ul {
-  padding-left: 1rem;
-}
-
-li>ul {
-  padding-left: .5rem;
-}
+ul { padding-left: 1rem; }
+li > ul { padding-left: .5rem; }

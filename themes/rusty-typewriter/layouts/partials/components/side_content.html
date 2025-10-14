@@ -7,10 +7,10 @@
       {{- if .imagePath -}}
         {{- if .imageHref -}}
           <a href="{{- .imageHref -}}" target="_blank" rel="noopener noreferrer">
-            <img class="side-content-image" src="{{- .imagePath -}}" width="{{- default "35%" .imageWidth -}}" />
+            <img class="side-content-image" src="{{- .imagePath -}}" width="{{- default "75%" .imageWidth -}}" />
           </a>
         {{- else -}}
-          <img class="side-content-image" src="{{- .imagePath -}}" width="{{- default "35%" .imageWidth -}}" />
+          <img class="side-content-image" src="{{- .imagePath -}}" width="{{- default "75%" .imageWidth -}}" />
         {{- end -}}
       {{- end -}}
       <p>{{- markdownify .content -}}</p>
