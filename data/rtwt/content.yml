@@ -5,7 +5,7 @@ home:
 side:
   home:
   - content: 'Github'
-    imagePath: 'Github_Invertocat_Light.png'
+    imagePath: 'github_light.png'
     imageHref: 'https://github.com/nunokaeru'
   - content: 'LinkedIn'
     imagePath: 'linkedin.png'
